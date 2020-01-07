@@ -382,7 +382,7 @@ In order to test the policy, I choose a slightly difficult track called **Aalbor
 ![](/img/torcs/Aalborg.png)
 {: refdef}
 
-I trained the neural network with 2000 episodes and allowed Ornstein-Uhlenbeck process decay linearly in 100000 frames. (i.e. no more exploitation is applied after 100000 frames). I also validate my neural network by allowing the agent to drive on a much longer track called **Alpine 1** (3 times longer). It is important to test the AI agents in other tracks to make sure the AI do not simply "memorize the track", aka overfitting.
+I trained the neural network with 2000 episodes and allowed Ornstein-Uhlenbeck process decay linearly in 100000 frames. (i.e. no more exploration is applied after 100000 frames). I also validate my neural network by allowing the agent to drive on a much longer track called **Alpine 1** (3 times longer). It is important to test the AI agents in other tracks to make sure the AI do not simply "memorize the track", aka overfitting.
 
 {:refdef: style="text-align: center;"}
 ![](/img/torcs/Alpine.png)
